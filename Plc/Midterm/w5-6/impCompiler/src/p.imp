@@ -1,0 +1,10 @@
+int a;
+int res;
+a := 7;
+res := 1;
+while(a > 1)
+{
+   res := res * a;
+   a   := a - 1;
+   skip
+}
